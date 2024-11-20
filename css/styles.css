@@ -43,6 +43,9 @@ a {
 /* header */
 
 .page-header {
+    margin: auto;
+    width: 1440px;
+    height: 72px;
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 
@@ -150,8 +153,12 @@ a {
 }
 
  .hero {
-    background-color: #2e2f42;
+    width: 1440px;
+    height: 600px;
+    background-color: rgba(46, 47, 66, 0.7);
+    background-image: url(.);
     padding: 188px 0;
+    margin: auto;
  }
  .container-hero {
     display: flex;
@@ -200,9 +207,6 @@ a {
     background-color: #404bbf;
 }
 
-.benefits {
-
-}
 
 .visually-hidden {
     position: absolute;
@@ -246,6 +250,7 @@ a {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .benefits-text {
@@ -254,6 +259,23 @@ a {
     letter-spacing: 0.02em;
    
 }
+
+.benefits-icon {
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        background-color: #f4f4fd;
+}
+
+.antena,
+.clock, 
+.diagram,
+.astronaut {
+    padding: 24px 100px;
+
+ }
+
 
 .team {
     background-color: #f4f4fd;
