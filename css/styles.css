@@ -395,6 +395,14 @@ a {
 
 }
 
+.socials-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+
+}
+
 .socials-icon {
     display: flex;
         align-items: center;
