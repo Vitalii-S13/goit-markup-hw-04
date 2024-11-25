@@ -353,6 +353,8 @@ a {
     width: 232px;
     height: 104px;
     margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-member {
