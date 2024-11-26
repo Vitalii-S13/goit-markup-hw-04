@@ -285,22 +285,14 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        
+        padding: 24px 100px;
 }
 .icon {
    
 }
 
 
-
-.antena,
-.clock, 
-.diagram,
-.astronaut {
-    
-    padding: 24px 100px;
- }
-
+  
 
 .team {
     background-color: #f4f4fd;
@@ -456,6 +448,7 @@ a {
     width: calc((100% - (24px * 2)) / 3);
     width: 360px;
     height: 420px;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
    
 }
@@ -473,11 +466,9 @@ a {
     left: 0;
     transform: translateY(100%); 
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     width: 100%;
     height: 100%;
     display: flex;
-   
     padding: 40px 32px;
     font-weight: 400;
     font-size: 16px;
@@ -493,7 +484,7 @@ a {
 }
 
 .portfolio-item:hover {
-    box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container-portfolio-subtitle {
