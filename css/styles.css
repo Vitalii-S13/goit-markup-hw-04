@@ -385,6 +385,7 @@ a {
     gap: 24px;
     width: 232px;
     height: 40px;
+    justify-content: center;
 }
 
 .socials-items {
@@ -403,7 +404,7 @@ a {
 .socials-container {
     display: flex;
     gap: 24px;
-    justify-content: center;
+    
 
 
 }
