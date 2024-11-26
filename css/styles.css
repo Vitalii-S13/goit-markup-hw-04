@@ -509,20 +509,13 @@ a {
 }
 .page-footer {
     background-color: #2e2f42;
-    padding: 40px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:left ;
+    padding: 100px 0;
     
-    max-width: 1440px;
-    margin: auto;
 }
 
 .container-footer {
     display: flex;
     align-items: baseline;
-
-
 }
 
 .container-logo-footer {
@@ -540,26 +533,24 @@ a {
 }
 
 .footer-socials-subtitle {
-        font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
-            color: #fff;
-            margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    padding: 0;
 }
 
 .footer-socials {
     display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
+    gap: 16px;  
     
 }
 
 .footer-socials-items {
     width: 40px;
     height: 40px;
-    
-  
    
 }
 
