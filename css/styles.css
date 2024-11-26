@@ -395,7 +395,7 @@ a {
     border-radius: 50%;
     background-color: #4d5ae5;
     padding: 12px 12px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+   
 
 
 }
@@ -415,9 +415,10 @@ a {
 
 .socials-icon {
     display: flex;
-        align-items: center;
-        justify-content: center;
-        fill: #f4f4fd;
+    align-items: center;
+    justify-content: center;
+    fill: #f4f4fd;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-icon:hover,
@@ -556,7 +557,7 @@ a {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .footer-socials-items {
@@ -575,7 +576,7 @@ a {
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
-      
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-socials-icon {
